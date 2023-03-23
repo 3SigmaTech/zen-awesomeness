@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="https://static.zdassets.com/zendesk_app_framework_sdk/2.0/zaf_sdk.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/@zendeskgarden/css-bedrock@7.0.21,npm/@zendeskgarden/css-utilities@4.3.0">
+    <script type="text/javascript" src="http://localhost:3000/build/app.js"></script>
+    <style>
+        footer {
+            font-size: 0.75em;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <span id="cta-label" data-i18n-key="rateyour">You're awesome!</span>
+    <span id="separator">: </span>
+    <input id="awesomenessrating" type="number" min="1" max="5" step="1" value="1">
+    <span id="outof">out of</span>
+    <span id="maxawesome">5</span>
+    <footer>
+        <a href="https://support.3sigmatechnologies.com/hc/en-us/requests/new?ticket_form_id=13806422005261" target="_blank" data-i18n-key="report_bugs">
+            Report Issues
+        </a>
+    </footer>
+    <script>
+        app.registerApp();
+    </script>
+</body>
+
+</html>

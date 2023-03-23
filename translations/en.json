@@ -1,0 +1,20 @@
+{
+    "app": {
+        "parameters": {
+            "maxawesome": {
+                "label": "Max Awesome",
+                "helpText": "Highest possible rating for awesomeness (defaults to 10)."
+            }
+        },
+        "name": "Awesomeness",
+        "short_description": "Tell me how awesome you are.",
+        "long_description": "There is no longer description, but **you** can write one *whenever* you want to.\n\nYou can even have line breaks, [links](https://3sigmatechnologies.com), and\n* all\n* other\n* markup\n\nThis app was written to demonstrate the [Zendesk Translations Writer](https://github.com/3SigmaTech/zendesk-translations-writer) functionality (and to act as a stub for app builds).",
+        "installation_instructions": "**Note**: You need administrator permissions in Zendesk to set up the app.\n * Click the Install button above on this page.\n * Set up the app configuration according to your needs (see below for configurable parameters).\n * That's it! You're ready to be awesome.\n\n## Configuration Options\n\n\n* **Max Awesome**: Highest possible rating for awesomeness (defaults to 10)."
+    },
+    "default": {
+        "awesome": "Awesome",
+        "rateyour": "Rate your awesome",
+        "report_bugs": "Report Issues",
+        "load_location_error": "I do not belong here."
+    }
+}

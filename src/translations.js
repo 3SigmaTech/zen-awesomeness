@@ -1,0 +1,1 @@
+export const translations = {"de":{"default":{"awesome":"Eindrucksvoll","rateyour":"Bewerten Sie Ihr tolles","report_bugs":"Probleme melden","load_location_error":"Ich gehöre nicht hier her."}},"en":{"default":{"awesome":"Awesome","rateyour":"Rate your awesome","report_bugs":"Report Issues","load_location_error":"I do not belong here."}}};
